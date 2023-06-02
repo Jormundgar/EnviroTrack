@@ -1,0 +1,7 @@
+.idea
+*.iml
+EnviroTrackCLIENT/src/test
+EnviroTrackAPI/HELP.md
+EnviroTrackAPI/target
+EnviroTrackAPI/src/test
+EnviroTrackAPI/src/main/resources/application.properties
