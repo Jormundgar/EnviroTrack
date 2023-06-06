@@ -15,8 +15,8 @@ public class ClientStarter {
         scanner.close();
         sensorRegistration(sensorName);
         var random = new Random();
-        double maxTemp = 45.0;
-        for (int i = 0; i < 1000; i++){
+        double maxTemp = 30.0;
+        for (int i = 0; i < 500; i++){
             addMeasurements(random.nextDouble() * maxTemp, random.nextBoolean(), sensorName);
         }
     }
